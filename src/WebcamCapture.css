@@ -1,0 +1,15 @@
+.webcamCapture {
+    position: relative;
+    display : flex;
+    flex-direction : column;
+    align-items: center;
+}
+
+.webcamCapture__icon {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    color: rgb(253, 252, 252);
+}
